@@ -28,15 +28,18 @@ button {
   margin-top: 10px;
   padding: 10px 15px;
   font-size: 1rem;
-  background-color: #4caf50;
+  background-color: #64b8e3;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 0 0 10px #72b9ec, 0 0 20px #4c7faf80;
+  transition: box-shadow 0.3s, background 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #f1ea63;
+  box-shadow: 0 0 20px #c9c53d, 0 0 40px #ebd75580;
 }
 
 #reflectionList {
