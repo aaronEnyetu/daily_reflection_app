@@ -29,5 +29,5 @@ function displayReflections() {
   });
 }
 
-// Display reflections on page load
+ 
 window.onload = displayReflections;
